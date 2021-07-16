@@ -16,7 +16,6 @@ namespace Importer.BusinessManager
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             // To DO In Future We can register Auto mapper here 
-            services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddTransient<ICsvReader,CsvReader>();
             services.AddTransient<IDownloadFile, DownloadFile>();
             services.AddTransient<IFileReader, FileReader>();
@@ -24,6 +23,7 @@ namespace Importer.BusinessManager
             services.AddTransient<IImportStrategy, CapterraImportStrategy>();
             services.AddTransient<IImportStrategy, GartnerImportStrategy>();
             services.AddTransient<IImportStrategy, SoftwareadviceImportStrategy>();
+            services.AddTransient<IImportOperationDataAccess,ImportOperationDataAccess>();
             return services;
         }
     }

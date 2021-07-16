@@ -13,7 +13,6 @@ namespace importer.tests
         public CsvReaderTest()
         {
             _mockCsvReader = new Mock<ICsvReader>();
-
         }
 
         [Fact]

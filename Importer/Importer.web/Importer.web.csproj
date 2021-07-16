@@ -16,5 +16,9 @@
     <ProjectReference Include="..\Importer.persistence\Importer.persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 
 </Project>

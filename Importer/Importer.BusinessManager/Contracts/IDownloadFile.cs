@@ -7,6 +7,6 @@ namespace Importer.BusinessManager.Contracts
 {
     public interface IDownloadFile
     {
-        Task DownloadFileAsync(string url);
+        Task<string> DownloadFileAsync(string url);
     }
 }
