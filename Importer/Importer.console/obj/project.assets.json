@@ -195,11 +195,11 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.FileExtensions/3.1.0": {
+      "Microsoft.Extensions.Configuration.FileExtensions/3.1.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.0",
-          "Microsoft.Extensions.FileProviders.Physical": "3.1.0"
+          "Microsoft.Extensions.Configuration": "3.1.1",
+          "Microsoft.Extensions.FileProviders.Physical": "3.1.1"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
@@ -259,10 +259,10 @@
           "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/3.1.0": {
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.0"
+          "Microsoft.Extensions.Primitives": "3.1.1"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
@@ -271,11 +271,11 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Physical/3.1.0": {
+      "Microsoft.Extensions.FileProviders.Physical/3.1.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.0",
-          "Microsoft.Extensions.FileSystemGlobbing": "3.1.0"
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.1",
+          "Microsoft.Extensions.FileSystemGlobbing": "3.1.1"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll": {}
@@ -284,7 +284,7 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll": {}
         }
       },
-      "Microsoft.Extensions.FileSystemGlobbing/3.1.0": {
+      "Microsoft.Extensions.FileSystemGlobbing/3.1.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
@@ -1498,20 +1498,20 @@
         "packageIcon.png"
       ]
     },
-    "Microsoft.Extensions.Configuration.FileExtensions/3.1.0": {
-      "sha512": "OjRJIkVxUFiVkr9a39AqVThft9QHoef4But5pDCydJOXJ4D/SkmzuW1tm6J2IXynxj6qfeAz9QTnzQAvOcGvzg==",
+    "Microsoft.Extensions.Configuration.FileExtensions/3.1.1": {
+      "sha512": "cIus40AOCE1uItTS8/RAsHQo3iFYZcq3QqKLvmvxXYA+X2jxCgn2sVLqyyC6ZzJ4KpIizrDCJb8zKotmUyuvGQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.fileextensions/3.1.0",
+      "path": "microsoft.extensions.configuration.fileextensions/3.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll",
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
-        "microsoft.extensions.configuration.fileextensions.3.1.0.nupkg.sha512",
-        "microsoft.extensions.configuration.fileextensions.nuspec",
-        "packageIcon.png"
+        "microsoft.extensions.configuration.fileextensions.3.1.1.nupkg.sha512",
+        "microsoft.extensions.configuration.fileextensions.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration.Json/3.0.1": {
@@ -1586,50 +1586,50 @@
         "microsoft.extensions.dependencymodel.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/3.1.0": {
-      "sha512": "G3iBMOnn3tETEUvkE9J3a23wQpRkiXZp73zR0XNlicjLFhkeWW1FCaC2bTjrgHhPi2KO6x0BXnHvVuJPIlygBQ==",
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.1": {
+      "sha512": "V9WqFEKiUygbsNB3JUMUUJAoTlDxNqBwfybZTF7RbFCgbooFNyCscBOdiciomA785wiRoX/Uy/WIea9wzPBPgQ==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/3.1.0",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.3.1.0.nupkg.sha512",
-        "microsoft.extensions.fileproviders.abstractions.nuspec",
-        "packageIcon.png"
+        "microsoft.extensions.fileproviders.abstractions.3.1.1.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Physical/3.1.0": {
-      "sha512": "KsvgrYp2fhNXoD9gqSu8jPK9Sbvaa7SqNtsLqHugJkCwFmgRvdz76z6Jz2tlFlC7wyMTZxwwtRF8WAorRQWTEA==",
+    "Microsoft.Extensions.FileProviders.Physical/3.1.1": {
+      "sha512": "HF9OUt3wMO+pyCXTlAYSnEkz3YlHNQbiximdroRQIcuVUzJIjZyJ5KCAr3WfshUHkhjrrUMDUCH5QUeb3HbCUw==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.physical/3.1.0",
+      "path": "microsoft.extensions.fileproviders.physical/3.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll",
         "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
-        "microsoft.extensions.fileproviders.physical.3.1.0.nupkg.sha512",
-        "microsoft.extensions.fileproviders.physical.nuspec",
-        "packageIcon.png"
+        "microsoft.extensions.fileproviders.physical.3.1.1.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileSystemGlobbing/3.1.0": {
-      "sha512": "tK5HZOmVv0kUYkonMjuSsxR0CBk+Rd/69QU3eOMv9FvODGZ2d0SR+7R+n8XIgBcCCoCHJBSsI4GPRaoN3Le4rA==",
+    "Microsoft.Extensions.FileSystemGlobbing/3.1.1": {
+      "sha512": "44k6cg7VHzDFylfkPUjPPAThEI2M5rtw+dm4+PuKbjuFHg5W/kE+FDRrQKUN8LLIGAdpeD9Jkqm/NNWtksv3NA==",
       "type": "package",
-      "path": "microsoft.extensions.filesystemglobbing/3.1.0",
+      "path": "microsoft.extensions.filesystemglobbing/3.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "microsoft.extensions.filesystemglobbing.3.1.0.nupkg.sha512",
-        "microsoft.extensions.filesystemglobbing.nuspec",
-        "packageIcon.png"
+        "microsoft.extensions.filesystemglobbing.3.1.1.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.nuspec"
       ]
     },
     "Microsoft.Extensions.Logging/5.0.0": {
@@ -4501,7 +4501,7 @@
       "Importer.model >= 1.0.0",
       "Importer.persistence >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 3.1.1",
-      "Microsoft.Extensions.Configuration.FileExtensions >= 3.1.0",
+      "Microsoft.Extensions.Configuration.FileExtensions >= 3.1.1",
       "Microsoft.Extensions.Configuration.Json >= 3.0.1",
       "Microsoft.Extensions.DependencyInjection >= 6.0.0-preview.6.21352.12"
     ]
@@ -4514,11 +4514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\gatner\\Importer\\Importer.console\\Importer.console.csproj",
+      "projectUniqueName": "C:\\gatner\\ExamProvider\\Importer\\Importer.console\\Importer.console.csproj",
       "projectName": "Importer.console",
-      "projectPath": "C:\\gatner\\Importer\\Importer.console\\Importer.console.csproj",
+      "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.console\\Importer.console.csproj",
       "packagesPath": "C:\\Users\\rasshukl2\\.nuget\\packages\\",
-      "outputPath": "C:\\gatner\\Importer\\Importer.console\\obj\\",
+      "outputPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -4539,17 +4539,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\gatner\\Importer\\Importer.BusinessManager\\Importer.BusinessManager.csproj": {
-              "projectPath": "C:\\gatner\\Importer\\Importer.BusinessManager\\Importer.BusinessManager.csproj"
+            "C:\\gatner\\ExamProvider\\Importer\\Importer.BusinessManager\\Importer.BusinessManager.csproj": {
+              "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.BusinessManager\\Importer.BusinessManager.csproj"
             },
-            "C:\\gatner\\Importer\\Importer.common\\Importer.common.csproj": {
-              "projectPath": "C:\\gatner\\Importer\\Importer.common\\Importer.common.csproj"
+            "C:\\gatner\\ExamProvider\\Importer\\Importer.common\\Importer.common.csproj": {
+              "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.common\\Importer.common.csproj"
             },
-            "C:\\gatner\\Importer\\Importer.model\\Importer.model.csproj": {
-              "projectPath": "C:\\gatner\\Importer\\Importer.model\\Importer.model.csproj"
+            "C:\\gatner\\ExamProvider\\Importer\\Importer.model\\Importer.model.csproj": {
+              "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.model\\Importer.model.csproj"
             },
-            "C:\\gatner\\Importer\\Importer.persistence\\Importer.persistence.csproj": {
-              "projectPath": "C:\\gatner\\Importer\\Importer.persistence\\Importer.persistence.csproj"
+            "C:\\gatner\\ExamProvider\\Importer\\Importer.persistence\\Importer.persistence.csproj": {
+              "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.persistence\\Importer.persistence.csproj"
             }
           }
         }
@@ -4569,7 +4569,7 @@
           },
           "Microsoft.Extensions.Configuration.FileExtensions": {
             "target": "Package",
-            "version": "[3.1.0, )"
+            "version": "[3.1.1, )"
           },
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",

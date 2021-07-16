@@ -12,34 +12,36 @@ namespace Importer.BusinessManager.Implementations
     {
         private readonly IFileReader fileReader;                                                                                                                                                                                                  
         private readonly IDownloadFile download;
-        
+
         public Import (IFileReader fileReader, IDownloadFile download)
         {
             this.fileReader = fileReader;
             this.download = download;
         }
-        public async Task ImportSourceDatatAsync(ImportModel importModel)
+        public async Task ImportSourceDatatAsync(IList<ImportModel> importModel)
         {
             try
             {
-                switch (importModel.ImportSource)
+                foreach (var item in importModel)
                 {
-                    case ImportSource.Capterra:
-                        ImportStrategyClient capterraClient = new ImportStrategyClient(new CapterraImportStrategy());
-                        await capterraClient.ImportAsync(importModel).ConfigureAwait(false);
-                        break;
+                    switch (item.ImportSource)
+                    {
+                        case ImportSource.Capterra:
+                            ImportStrategyClient capterraClient = new ImportStrategyClient(new CapterraImportStrategy());
+                            await capterraClient.ImportAsync(item).ConfigureAwait(false);
+                            break;
 
-                    case ImportSource.Softwareadvice:
-                        ImportStrategyClient softwareadviceClient = new ImportStrategyClient(new SoftwareadviceImportStrategy());
-                        await softwareadviceClient.ImportAsync(importModel).ConfigureAwait(false);
-                        break;
+                        case ImportSource.Softwareadvice:
+                            ImportStrategyClient softwareadviceClient = new ImportStrategyClient(new SoftwareadviceImportStrategy());
+                            await softwareadviceClient.ImportAsync(item).ConfigureAwait(false);
+                            break;
 
-                    case ImportSource.Gartner:
-                        ImportStrategyClient gartnerClient = new ImportStrategyClient(new GartnerImportStrategy(download, fileReader));
-                        await gartnerClient.ImportAsync(importModel).ConfigureAwait(false);
-                        break;
-                }
-                
+                        case ImportSource.Gartner:
+                            ImportStrategyClient gartnerClient = new ImportStrategyClient(new GartnerImportStrategy(download, fileReader));
+                            await gartnerClient.ImportAsync(item).ConfigureAwait(false);
+                            break;
+                    }
+                }   
             }
             catch
             {

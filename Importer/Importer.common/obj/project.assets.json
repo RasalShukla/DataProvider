@@ -4066,11 +4066,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\gatner\\Importer\\Importer.common\\Importer.common.csproj",
+      "projectUniqueName": "C:\\gatner\\ExamProvider\\Importer\\Importer.common\\Importer.common.csproj",
       "projectName": "Importer.common",
-      "projectPath": "C:\\gatner\\Importer\\Importer.common\\Importer.common.csproj",
+      "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.common\\Importer.common.csproj",
       "packagesPath": "C:\\Users\\rasshukl2\\.nuget\\packages\\",
-      "outputPath": "C:\\gatner\\Importer\\Importer.common\\obj\\",
+      "outputPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

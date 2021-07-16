@@ -10,6 +10,6 @@ namespace Importer.BusinessManager.Contracts
 {
     public interface IFileReader
     {
-        Task<DataBaseModel> Read(string filePath, FileType fileType);
+        Task Read(string filePath, FileType fileType);
     }
 }

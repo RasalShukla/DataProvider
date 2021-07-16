@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\gatner\\Importer\\Importer.persistence\\Importer.persistence.csproj": {}
+    "C:\\gatner\\ExamProvider\\Importer\\Importer.persistence\\Importer.persistence.csproj": {}
   },
   "projects": {
-    "C:\\gatner\\Importer\\Importer.persistence\\Importer.persistence.csproj": {
+    "C:\\gatner\\ExamProvider\\Importer\\Importer.persistence\\Importer.persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\gatner\\Importer\\Importer.persistence\\Importer.persistence.csproj",
+        "projectUniqueName": "C:\\gatner\\ExamProvider\\Importer\\Importer.persistence\\Importer.persistence.csproj",
         "projectName": "Importer.persistence",
-        "projectPath": "C:\\gatner\\Importer\\Importer.persistence\\Importer.persistence.csproj",
+        "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.persistence\\Importer.persistence.csproj",
         "packagesPath": "C:\\Users\\rasshukl2\\.nuget\\packages\\",
-        "outputPath": "C:\\gatner\\Importer\\Importer.persistence\\obj\\",
+        "outputPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

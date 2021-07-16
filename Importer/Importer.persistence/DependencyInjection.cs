@@ -32,7 +32,7 @@ namespace Importer.persistence
                 case "MongoDb":
                     services.AddSingleton<IMongoClient>(s => new MongoClient(configuration.GetConnectionString("MongoDb")));
                     services.AddScoped(s => new DomainModelMongoDbContext(s.GetRequiredService<IMongoClient>(), configuration["MongoDbName"]));
-                    services.AddScoped<IDataAccessProvider, DataAccessMySqlProvider>();
+                    services.AddScoped<IDataAccessProvider, DataAccessMongoDbProvider>();
                     break;
                 default:
                     throw new Exception("UnExpected Db;");

@@ -4349,11 +4349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\gatner\\Importer\\Importer.BusinessManager\\Importer.BusinessManager.csproj",
+      "projectUniqueName": "C:\\gatner\\ExamProvider\\Importer\\Importer.BusinessManager\\Importer.BusinessManager.csproj",
       "projectName": "Importer.BusinessManager",
-      "projectPath": "C:\\gatner\\Importer\\Importer.BusinessManager\\Importer.BusinessManager.csproj",
+      "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.BusinessManager\\Importer.BusinessManager.csproj",
       "packagesPath": "C:\\Users\\rasshukl2\\.nuget\\packages\\",
-      "outputPath": "C:\\gatner\\Importer\\Importer.BusinessManager\\obj\\",
+      "outputPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.BusinessManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -4374,11 +4374,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\gatner\\Importer\\Importer.model\\Importer.model.csproj": {
-              "projectPath": "C:\\gatner\\Importer\\Importer.model\\Importer.model.csproj"
+            "C:\\gatner\\ExamProvider\\Importer\\Importer.model\\Importer.model.csproj": {
+              "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.model\\Importer.model.csproj"
             },
-            "C:\\gatner\\Importer\\Importer.persistence\\Importer.persistence.csproj": {
-              "projectPath": "C:\\gatner\\Importer\\Importer.persistence\\Importer.persistence.csproj"
+            "C:\\gatner\\ExamProvider\\Importer\\Importer.persistence\\Importer.persistence.csproj": {
+              "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.persistence\\Importer.persistence.csproj"
             }
           }
         }

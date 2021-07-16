@@ -6,3 +6,11 @@ C:\gatner\Importer\Importer.persistence\obj\Debug\netcoreapp3.1\Importer.persist
 C:\gatner\Importer\Importer.persistence\bin\Debug\netcoreapp3.1\Importer.persistence.pdb
 C:\gatner\Importer\Importer.persistence\obj\Debug\netcoreapp3.1\Importer.persistence.dll
 C:\gatner\Importer\Importer.persistence\obj\Debug\netcoreapp3.1\Importer.persistence.pdb
+C:\gatner\ExamProvider\Importer\Importer.persistence\bin\Debug\netcoreapp3.1\Importer.persistence.deps.json
+C:\gatner\ExamProvider\Importer\Importer.persistence\bin\Debug\netcoreapp3.1\Importer.persistence.dll
+C:\gatner\ExamProvider\Importer\Importer.persistence\bin\Debug\netcoreapp3.1\Importer.persistence.pdb
+C:\gatner\ExamProvider\Importer\Importer.persistence\obj\Debug\netcoreapp3.1\Importer.persistence.csprojAssemblyReference.cache
+C:\gatner\ExamProvider\Importer\Importer.persistence\obj\Debug\netcoreapp3.1\Importer.persistence.AssemblyInfoInputs.cache
+C:\gatner\ExamProvider\Importer\Importer.persistence\obj\Debug\netcoreapp3.1\Importer.persistence.AssemblyInfo.cs
+C:\gatner\ExamProvider\Importer\Importer.persistence\obj\Debug\netcoreapp3.1\Importer.persistence.dll
+C:\gatner\ExamProvider\Importer\Importer.persistence\obj\Debug\netcoreapp3.1\Importer.persistence.pdb

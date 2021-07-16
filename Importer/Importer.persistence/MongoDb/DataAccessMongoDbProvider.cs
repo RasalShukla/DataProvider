@@ -15,8 +15,8 @@ namespace Importer.persistence.MongoDb
         }
         public async Task AddImportEntityRecordAsync(ImportEntityModel importEntityModel)
         {
-            // Here we can do one more thing 
-            // Here We can write one converter which will convert Normal Entity Model To Mongo Obe
+          
+            // Here We can write one converter which will convert Normal Entity Model To Mongo model
             await _db.Imports.InsertOneAsync(importEntityModel);
         }
 

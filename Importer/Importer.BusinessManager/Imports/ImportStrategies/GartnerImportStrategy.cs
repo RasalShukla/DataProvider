@@ -18,8 +18,10 @@ namespace Importer.BusinessManager.Imports.ImportStrategies
         }
         public async Task ImportAsync(ImportModel importModels)
         {
+            // Download file 
            await download.DownloadFileAsync(importModels.GartnerImportModel.DownloadUrl);
-           await fileReader.Read(importModels.GartnerImportModel.DownloadUrl, importModels.GartnerImportModel.FileType);
+            // 
+           await fileReader.Read("download file path", importModels.GartnerImportModel.FileType);
         }
     }
 }

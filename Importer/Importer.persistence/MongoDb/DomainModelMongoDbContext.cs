@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Importer.persistence.MongoDb
 {
-    public class DomainModelMongoDbContext : DbContext
+    public class DomainModelMongoDbContext 
     {
         private readonly IMongoDatabase _db;
 

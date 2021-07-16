@@ -11,17 +11,26 @@ namespace Importer.BusinessManager.Implementations
 {
     public class FileReader : IFileReader
     {
-        private readonly ICsvReader csvReader;
-        public FileReader(ICsvReader csvReader)
+       
+        private readonly IImportOperationDataAccess importOperationDataAccess;
+        public FileReader(IImportOperationDataAccess importOperationDataAccess)
         {
-            this.csvReader = csvReader;
+            this.importOperationDataAccess = importOperationDataAccess;
         }
-        public async Task<DataBaseModel> Read(string filePath, FileType fileType)
+        public async Task Read(string filePath, FileType fileType)
         {
             switch (fileType)
             {
                 case FileType.CSV:
-                  return await csvReader.ReadCsvData(filePath);
+
+                    //Step 1- Read CSV line by line 
+
+                    //Step 2 - Use AutoMapper to convert source data model to destination data model
+
+                    //Step 3- and Bulk insert in DB 
+                    DataBaseModel dataBaseModel = new DataBaseModel();
+                    await importOperationDataAccess.SaveImportDataInDb(dataBaseModel);
+                    break;
                 default:
                     throw new Exception("Invalid File Type.");
             }

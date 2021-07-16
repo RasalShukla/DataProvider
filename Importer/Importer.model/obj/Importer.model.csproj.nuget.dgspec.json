@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\gatner\\Importer\\Importer.model\\Importer.model.csproj": {}
+    "C:\\gatner\\ExamProvider\\Importer\\Importer.model\\Importer.model.csproj": {}
   },
   "projects": {
-    "C:\\gatner\\Importer\\Importer.common\\Importer.common.csproj": {
+    "C:\\gatner\\ExamProvider\\Importer\\Importer.common\\Importer.common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\gatner\\Importer\\Importer.common\\Importer.common.csproj",
+        "projectUniqueName": "C:\\gatner\\ExamProvider\\Importer\\Importer.common\\Importer.common.csproj",
         "projectName": "Importer.common",
-        "projectPath": "C:\\gatner\\Importer\\Importer.common\\Importer.common.csproj",
+        "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.common\\Importer.common.csproj",
         "packagesPath": "C:\\Users\\rasshukl2\\.nuget\\packages\\",
-        "outputPath": "C:\\gatner\\Importer\\Importer.common\\obj\\",
+        "outputPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\gatner\\Importer\\Importer.model\\Importer.model.csproj": {
+    "C:\\gatner\\ExamProvider\\Importer\\Importer.model\\Importer.model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\gatner\\Importer\\Importer.model\\Importer.model.csproj",
+        "projectUniqueName": "C:\\gatner\\ExamProvider\\Importer\\Importer.model\\Importer.model.csproj",
         "projectName": "Importer.model",
-        "projectPath": "C:\\gatner\\Importer\\Importer.model\\Importer.model.csproj",
+        "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.model\\Importer.model.csproj",
         "packagesPath": "C:\\Users\\rasshukl2\\.nuget\\packages\\",
-        "outputPath": "C:\\gatner\\Importer\\Importer.model\\obj\\",
+        "outputPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -99,8 +99,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\gatner\\Importer\\Importer.common\\Importer.common.csproj": {
-                "projectPath": "C:\\gatner\\Importer\\Importer.common\\Importer.common.csproj"
+              "C:\\gatner\\ExamProvider\\Importer\\Importer.common\\Importer.common.csproj": {
+                "projectPath": "C:\\gatner\\ExamProvider\\Importer\\Importer.common\\Importer.common.csproj"
               }
             }
           }

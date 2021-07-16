@@ -6,3 +6,11 @@ C:\gatner\Importer\Importer.common\obj\Debug\netcoreapp3.1\Importer.common.Assem
 C:\gatner\Importer\Importer.common\obj\Debug\netcoreapp3.1\Importer.common.AssemblyInfo.cs
 C:\gatner\Importer\Importer.common\obj\Debug\netcoreapp3.1\Importer.common.dll
 C:\gatner\Importer\Importer.common\obj\Debug\netcoreapp3.1\Importer.common.pdb
+C:\gatner\ExamProvider\Importer\Importer.common\bin\Debug\netcoreapp3.1\Importer.common.deps.json
+C:\gatner\ExamProvider\Importer\Importer.common\bin\Debug\netcoreapp3.1\Importer.common.dll
+C:\gatner\ExamProvider\Importer\Importer.common\bin\Debug\netcoreapp3.1\Importer.common.pdb
+C:\gatner\ExamProvider\Importer\Importer.common\obj\Debug\netcoreapp3.1\Importer.common.csprojAssemblyReference.cache
+C:\gatner\ExamProvider\Importer\Importer.common\obj\Debug\netcoreapp3.1\Importer.common.AssemblyInfoInputs.cache
+C:\gatner\ExamProvider\Importer\Importer.common\obj\Debug\netcoreapp3.1\Importer.common.AssemblyInfo.cs
+C:\gatner\ExamProvider\Importer\Importer.common\obj\Debug\netcoreapp3.1\Importer.common.dll
+C:\gatner\ExamProvider\Importer\Importer.common\obj\Debug\netcoreapp3.1\Importer.common.pdb

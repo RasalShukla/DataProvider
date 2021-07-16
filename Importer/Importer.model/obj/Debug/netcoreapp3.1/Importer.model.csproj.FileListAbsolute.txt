@@ -9,3 +9,14 @@ C:\gatner\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.Assembl
 C:\gatner\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.csproj.CopyComplete
 C:\gatner\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.dll
 C:\gatner\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.pdb
+C:\gatner\ExamProvider\Importer\Importer.model\bin\Debug\netcoreapp3.1\Importer.model.deps.json
+C:\gatner\ExamProvider\Importer\Importer.model\bin\Debug\netcoreapp3.1\Importer.model.dll
+C:\gatner\ExamProvider\Importer\Importer.model\bin\Debug\netcoreapp3.1\Importer.model.pdb
+C:\gatner\ExamProvider\Importer\Importer.model\bin\Debug\netcoreapp3.1\Importer.common.dll
+C:\gatner\ExamProvider\Importer\Importer.model\bin\Debug\netcoreapp3.1\Importer.common.pdb
+C:\gatner\ExamProvider\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.csprojAssemblyReference.cache
+C:\gatner\ExamProvider\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.AssemblyInfoInputs.cache
+C:\gatner\ExamProvider\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.AssemblyInfo.cs
+C:\gatner\ExamProvider\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.csproj.CopyComplete
+C:\gatner\ExamProvider\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.dll
+C:\gatner\ExamProvider\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.pdb

@@ -8,6 +8,6 @@ namespace Importer.BusinessManager.Contracts
 {
     public interface IImport
     {
-        Task ImportSourceDatatAsync(ImportModel importModel);
+        Task ImportSourceDatatAsync(IList<ImportModel> importModel);
     }
 }

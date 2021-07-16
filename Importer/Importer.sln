@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importer.web", "Importer.web\Importer.web.csproj", "{51C20CAE-B763-4E3B-A02D-6FD363113E9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Importer.web", "Importer.web\Importer.web.csproj", "{51C20CAE-B763-4E3B-A02D-6FD363113E9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importer.model", "Importer.model\Importer.model.csproj", "{89678224-53A3-4690-A0AA-3E8F7DFEE6F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Importer.model", "Importer.model\Importer.model.csproj", "{89678224-53A3-4690-A0AA-3E8F7DFEE6F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importer.BusinessManager", "Importer.BusinessManager\Importer.BusinessManager.csproj", "{0999C863-7E2F-49D1-82E5-AEDB2CD58394}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Importer.BusinessManager", "Importer.BusinessManager\Importer.BusinessManager.csproj", "{0999C863-7E2F-49D1-82E5-AEDB2CD58394}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importer.common", "Importer.common\Importer.common.csproj", "{14A55741-849D-47C7-B6E9-795C9ACB4618}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Importer.common", "Importer.common\Importer.common.csproj", "{14A55741-849D-47C7-B6E9-795C9ACB4618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importer.persistence", "Importer.persistence\Importer.persistence.csproj", "{EF8A77BC-A071-47FF-902F-BC19CB335F64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Importer.persistence", "Importer.persistence\Importer.persistence.csproj", "{EF8A77BC-A071-47FF-902F-BC19CB335F64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importer.console", "Importer.console\Importer.console.csproj", "{FA8DAF3F-FCEF-4F54-B58A-467046F69F22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Importer.console", "Importer.console\Importer.console.csproj", "{FA8DAF3F-FCEF-4F54-B58A-467046F69F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "importer.tests", "importer.tests\importer.tests.csproj", "{7EA8AA22-00FD-4B18-B6EB-A95DB87B6594}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{FA8DAF3F-FCEF-4F54-B58A-467046F69F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA8DAF3F-FCEF-4F54-B58A-467046F69F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA8DAF3F-FCEF-4F54-B58A-467046F69F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA8AA22-00FD-4B18-B6EB-A95DB87B6594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA8AA22-00FD-4B18-B6EB-A95DB87B6594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA8AA22-00FD-4B18-B6EB-A95DB87B6594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA8AA22-00FD-4B18-B6EB-A95DB87B6594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

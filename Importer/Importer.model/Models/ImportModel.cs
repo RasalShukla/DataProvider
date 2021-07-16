@@ -7,24 +7,18 @@ namespace Importer.model.Models
     {
         public ImportModel()
         {
-        }
-
-        public ImportModel(CapterraImportModel capterraImportModel)
-        {
-            CapterraImportModel = capterraImportModel;
-            ImportSource = ImportSource.Capterra;
-        }
-
-        public ImportModel(SoftwareadviceImportModel softwareadviceImportModel)
-        {
-            SoftwareadviceImportModel = softwareadviceImportModel;
-            ImportSource = ImportSource.Softwareadvice;
-        }
-
-        public ImportModel(GartnerImportModel gartnerImportModel)
-        {
-            GartnerImportModel = gartnerImportModel;
-            ImportSource = ImportSource.Gartner;
+            if(CapterraImportModel == null)
+            {
+                CapterraImportModel = new CapterraImportModel();
+            }
+            if (SoftwareadviceImportModel == null)
+            {
+                SoftwareadviceImportModel = new SoftwareadviceImportModel();
+            }
+            if (GartnerImportModel == null)
+            {
+                GartnerImportModel = new GartnerImportModel();
+            }
         }
         public CapterraImportModel CapterraImportModel { get; set; }
         public SoftwareadviceImportModel SoftwareadviceImportModel { get; set; }
