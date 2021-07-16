@@ -1,0 +1,15 @@
+C:\gatner\Importer\Importer.BusinessManager\bin\Debug\netcoreapp3.1\Importer.BusinessManager.deps.json
+C:\gatner\Importer\Importer.BusinessManager\bin\Debug\netcoreapp3.1\Importer.BusinessManager.dll
+C:\gatner\Importer\Importer.BusinessManager\bin\Debug\netcoreapp3.1\Importer.BusinessManager.pdb
+C:\gatner\Importer\Importer.BusinessManager\bin\Debug\netcoreapp3.1\Importer.common.dll
+C:\gatner\Importer\Importer.BusinessManager\bin\Debug\netcoreapp3.1\Importer.model.dll
+C:\gatner\Importer\Importer.BusinessManager\bin\Debug\netcoreapp3.1\Importer.model.pdb
+C:\gatner\Importer\Importer.BusinessManager\bin\Debug\netcoreapp3.1\Importer.common.pdb
+C:\gatner\Importer\Importer.BusinessManager\obj\Debug\netcoreapp3.1\Importer.BusinessManager.csprojAssemblyReference.cache
+C:\gatner\Importer\Importer.BusinessManager\obj\Debug\netcoreapp3.1\Importer.BusinessManager.AssemblyInfoInputs.cache
+C:\gatner\Importer\Importer.BusinessManager\obj\Debug\netcoreapp3.1\Importer.BusinessManager.AssemblyInfo.cs
+C:\gatner\Importer\Importer.BusinessManager\obj\Debug\netcoreapp3.1\Importer.BusinessManager.csproj.CopyComplete
+C:\gatner\Importer\Importer.BusinessManager\obj\Debug\netcoreapp3.1\Importer.BusinessManager.dll
+C:\gatner\Importer\Importer.BusinessManager\obj\Debug\netcoreapp3.1\Importer.BusinessManager.pdb
+C:\gatner\Importer\Importer.BusinessManager\bin\Debug\netcoreapp3.1\Importer.persistence.dll
+C:\gatner\Importer\Importer.BusinessManager\bin\Debug\netcoreapp3.1\Importer.persistence.pdb

@@ -1,0 +1,11 @@
+C:\gatner\Importer\Importer.model\bin\Debug\netcoreapp3.1\Importer.model.deps.json
+C:\gatner\Importer\Importer.model\bin\Debug\netcoreapp3.1\Importer.model.dll
+C:\gatner\Importer\Importer.model\bin\Debug\netcoreapp3.1\Importer.model.pdb
+C:\gatner\Importer\Importer.model\bin\Debug\netcoreapp3.1\Importer.common.dll
+C:\gatner\Importer\Importer.model\bin\Debug\netcoreapp3.1\Importer.common.pdb
+C:\gatner\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.csprojAssemblyReference.cache
+C:\gatner\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.AssemblyInfoInputs.cache
+C:\gatner\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.AssemblyInfo.cs
+C:\gatner\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.csproj.CopyComplete
+C:\gatner\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.dll
+C:\gatner\Importer\Importer.model\obj\Debug\netcoreapp3.1\Importer.model.pdb
