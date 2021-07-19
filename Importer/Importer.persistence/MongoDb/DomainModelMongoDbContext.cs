@@ -1,4 +1,5 @@
 ﻿using Importer.persistence.Entities;
+using Importer.persistence.Entities.MongoCollection;
 using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
 using System;
@@ -16,6 +17,6 @@ namespace Importer.persistence.MongoDb
             _db = client.GetDatabase(dbName);
         }
 
-        public IMongoCollection<ImportEntityModel> Imports => _db.GetCollection<ImportEntityModel>("imports");
+        public IMongoCollection<ImportEntityMongoModel> Imports => _db.GetCollection<ImportEntityMongoModel>("imports");
     }
 }

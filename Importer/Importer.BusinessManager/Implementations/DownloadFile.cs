@@ -8,9 +8,10 @@ namespace Importer.BusinessManager.Implementations
 {
     public class DownloadFile : IDownloadFile
     {
-        public Task DownloadFileAsync(string url)
+        public async Task<string>  DownloadFileAsync(string url)
         {
-            throw new NotImplementedException();
+            // To do write the download file logic 
+            return await Task.FromResult("download file Path");
         }
     }
 }

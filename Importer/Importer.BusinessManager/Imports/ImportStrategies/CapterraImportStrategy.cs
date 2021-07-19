@@ -12,7 +12,8 @@ namespace Importer.BusinessManager.Imports.ImportStrategies
         public async Task ImportAsync(ImportModel importModels)
         {
             // To do write actual code 
-            await Task.FromResult(new DataBaseModel());
+           var data = await Task.FromResult(new DataBaseModel());
+            // call db code
         }
     }
 }
